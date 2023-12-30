@@ -99,9 +99,9 @@ export class DraftL {
             name: this.data.title,
             //
             appID: this.data.appID,
+            draftID: this.data.id,
             formResult: req.result,
             formSerial: req.serial,
-            draftID: this.id,
             //
             // parentGraphID: graph.id,
             outputGraphID: graph.id,
